@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "baseUrl": "./",
+    "paths": {
+      "@services/*": [
+        "services/*"
+      ],
+      "@controllers": [
+        "controllers/index.ts"
+      ],
+      "@middlewares": [
+        "middlewares/index.ts"
+      ],
+      "@router": [
+        "router/index.ts"
+      ],
+      "@db": [
+        "db/index.ts"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ]
+    }
+  }
+}
+
+
